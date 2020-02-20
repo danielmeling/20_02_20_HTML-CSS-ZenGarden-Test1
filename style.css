@@ -1,0 +1,110 @@
+/*
+Start of CSS reset!
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+End of  CSS reset!
+*/
+
+/* Start of the CSS rulesets */
+body{
+    background-color:sandybrown ;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1{
+    font-size: 34px;
+    background-position: center;
+    background-color: snow;
+    border-radius: 5%;
+    margin:10px;
+    padding:10px;
+}
+h2{
+    background-color: snow;
+    font-size: 28px;
+    border-radius: 15%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+p{
+    background-color: snow;
+    font-size: 20px;
+    border-radius: 15%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: 10px;
+    padding: 10px;
+    margin-top:0;
+    padding-top:0;
+    }
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    border:3px solid whitesmoke;
+    background-color: lightgoldenrodyellow;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+li a:hover{
+    background-color: snow;    
+}
